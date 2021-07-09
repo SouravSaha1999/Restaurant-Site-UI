@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Online Food Delivering Services | IndiaWaaleMeal.com</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1170px)"
+      href="css/phone.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img
+          src="logo.jpg"
+          alt="IndiaWaaleMeals.com"
+          style="border-radius: 50px"
+        />
+      </div>
+      <ul>
+        <li id="items"><a href="#home">Home</a></li>
+        <li id="items"><a href="#services">Services</a></li>
+        <li id="items"><a href="#client-section">About Us</a></li>
+        <li id="items"><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h1 class="h-primary">Welcome to IndiaWaaleMeals Online Services</h1>
+      <p>
+        Our customers loves our Restaurant for its authentic Indian food as well
+        as customer e-service. <br />Taste the Food at affordable prices.
+      </p>
+      <button id="btn" class="btn">|| Order Online ||</button>
+    </section>
+
+    <div class="home-modal">
+      <div id="logo" class="modal-content">
+        <div class="close">+</div>
+        <img src="img/3.png" alt="" style="border-radius: 50px" />
+        <p class="modal-p">Available Food Orders</p>
+        <ol style="text-align: left">
+          <li>
+            Veg Thali<input type="checkbox" name="checkID" id="checkID" />
+          </li>
+          <li>
+            Non-Veg Thali<input type="checkbox" name="checkID" id="checkID" />
+          </li>
+          <li>
+            Soft Drink<input type="checkbox" name="checkID" id="checkID" />
+          </li>
+          <li>
+            Sweet Dish<input type="checkbox" name="checkID" id="checkID" />
+          </li>
+        </ol>
+        <button id="modal-btn" class="modal-btn" onclick="uncheck()">
+          Place Order
+        </button>
+      </div>
+    </div>
+
+    <div class="thank-modal">
+      <div class="thank-modal-content">
+        <div class="thank-close">+</div>
+        <p class="thank-p">Your Order has been Placed</p>
+        <p>Your Food will be delivered to you Shortly</p>
+        <p>Thank You</p>
+      </div>
+    </div>
+
+    <section class="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="img/1.png" alt="" />
+          <h2 class="h-secondary center">Food Ordering</h2>
+          <p class="center">
+            <b>1. Veg Thali</b> &ensp;[1 Roti + 1 Parantha + Rice + Dal + Shahi
+            Paneer(half) + Raita + Salad]<br /><b>Rs. 125/-</b>
+          </p>
+          <br />
+          <p class="center">
+            <b>2. Non-Veg Thali</b> &ensp;[1 Roti + 1 Parantha + Rice + Dal +
+            Handi Chicken(3pcs) + Raita + Salad]<br /><b>Rs. 150/-</b>
+          </p>
+          <br />
+          <p class="center">
+            <b>3. Sweet Dish</b> &ensp;[Gajar ka Halwa , Gulab Jamun(2 pcs) ,
+            Kheer]<br /><b>Rs. 45 each.</b>
+          </p>
+          <br />
+          <p class="center">
+            <b>4. Soft Drink</b> &ensp;[Coke , 7up , Mountain Dew , Limca]<br /><b
+              >500ml each@ Rs. 55</b
+            >
+          </p>
+          <br />
+        </div>
+
+        <div class="box">
+          <img src="img/2.png" alt="" />
+          <h2 class="h-secondary center">Food Catering</h2>
+          <p class="center">
+            <b>Party Organizers</b><br />
+            Birthday Party Event , Services Kitty Party Service , Anniversary
+            Parties Service<br /><br />
+            <b>Catering Services</b><br />
+            Wedding Catering Services , Meal Services , <br />Fast Food Catering
+            Services , <br />Outdoor Catering Service , <br />Corporate Catering
+            Service , Kitty Party Catering , Hotel Catering Service ,
+            <br />Commercial Catering Services , <br />Schools Catering Service
+            , College Catering Services , Conference Catering Service ,
+            <br />Multi Cuisine Catering Services
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="img/3.png" alt="" />
+          <h2 class="h-secondary center">Food Delivery</h2>
+          <p class="center">
+            <b>No Minimum Order</b><br />
+            Order in for yourself or for the group, with no restrictions on
+            order value<br /><br />
+            <b>Live Tracking Available</b><br />
+            Know where your order is at all times, from the restaurant to your
+            doorstep<br /><br />
+            <b>Lighting Fast Delivery</b><br />
+            Experience Swiggy's superfast delivery for food delivered fresh & on
+            time<br /><br />
+            <b>Delivery Timings</b><br />
+            Monday-Sunday<br />11:00 AM - 10:00 PM
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="client-section">
+      <h1 class="h-primary center">Our Clients</h1>
+      <div id="clients">
+        <div class="client-item">
+          <img src="img/logo1.png" alt="" />
+        </div>
+        <div class="client-item">
+          <img src="img/logo3.png" alt="" />
+        </div>
+        <div class="client-item">
+          <img src="img/logo2.png" alt="" />
+        </div>
+        <div class="client-item">
+          <img src="img/logo4.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+      <div id="contact-box">
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name :</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email :</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Enter Your Mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Contact Number :</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter Your Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <button type="button" class="form-button" onclick="submitFunction()">
+            SUBMIT
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="center">
+        Copyright &copy; www.indiaWaalMeals.com | All rights reserved;
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("btn").addEventListener("click", function () {
+        document.querySelector(".home-modal").style.display = "flex";
+      });
+
+      document.querySelector(".close").addEventListener("click", function () {
+        document.querySelector(".home-modal").style.display = "none";
+      });
+
+      document
+        .getElementById("modal-btn")
+        .addEventListener("click", function () {
+          document.querySelector(".home-modal").style.display = "none";
+          document.querySelector(".thank-modal").style.display = "flex";
+        });
+
+      document
+        .querySelector(".thank-close")
+        .addEventListener("click", function () {
+          document.querySelector(".thank-modal").style.display = "none";
+        });
+
+      function uncheck() {
+        var items = document.getElementsByName("checkID");
+        for (var i = 0; i < items.length; i++) {
+          if (items[i].type == "checkbox") items[i].checked = false;
+        }
+      }
+
+      function submitFunction() {
+        alert("Thank You For Contacting Us. We wil Reach to You Shortly");
+      }
+    </script>
+  </body>
+</html>
